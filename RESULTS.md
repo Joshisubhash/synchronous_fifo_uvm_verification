@@ -117,4 +117,111 @@ This confirms that the verification environment exercises most functional scenar
 **Description:**  
 This screenshot shows the **UVM report summary for the directed test**.
 
-Key results:
+ 
+
+
+
+
+
+
+
+
+
+
+
+The scoreboard reports **no mismatches**, confirming correct FIFO functionality.
+
+---
+
+# 🔬 Directed Test Waveform
+
+![Normal Test Waveform](./images/normal_test_wave.png)
+
+**Description:**  
+This waveform shows **basic FIFO operation**.
+
+Behavior observed:
+
+- Sequential write operations fill the FIFO
+- FIFO counter increases accordingly
+- Read operations remove data
+- FIFO counter decreases
+- Data output matches the order of input data
+
+---
+
+# 🎲 Random Test – Simulation Log
+
+![Random Test Simulation](./images/random_test_sim.png)
+
+**Description:**  
+This screenshot shows the execution of the **random_test sequence**.
+
+Features:
+
+- Constrained random transactions
+- Random read/write operations
+- Random data inputs
+
+This helps verify the FIFO under **non-deterministic traffic patterns**.
+
+---
+
+# 🔬 Random Test Waveform
+
+![Random Test Waveform](./images/random_test_wave.png)
+
+**Description:**  
+This waveform shows **random FIFO activity**.
+
+Observations:
+
+- Random bursts of writes and reads
+- FIFO counter changes dynamically
+- Data integrity is preserved
+- No overflow or underflow errors occur
+
+---
+
+# 📊 Stress Test – Final Report
+
+![Stress Test Report](./images/stress_test_report.png)
+
+**Description:**  
+This screenshot shows the **final simulation summary for the stress test**.
+
+Results confirm:
+
+- Multiple transactions executed
+- Scoreboard verified correct behavior
+- Simulation completed without errors
+
+---
+
+# ✅ Verification Summary
+
+The FIFO verification environment successfully tested:
+
+- Write operations
+- Read operations
+- FIFO full condition
+- FIFO empty condition
+- Random traffic
+- Simultaneous read/write
+- Stress testing
+
+Coverage results show **~90% overall verification coverage**, indicating strong testbench effectiveness.
+
+---
+
+# 👨‍💻 Author
+
+**Subhash Joshi**
+
+Digital Design & Verification Enthusiast
+
+GitHub  
+https://github.com/Joshisubhash
+
+LinkedIn  
+https://linkedin.com/in/subhash-joshi-ab9144262
