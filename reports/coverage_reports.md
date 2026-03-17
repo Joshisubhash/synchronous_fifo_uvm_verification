@@ -9,7 +9,7 @@ This section presents the **coverage analysis results** of the Synchronous FIFO 
 
 ## 📊 1. Overall Coverage Summary
 
-![Overall Coverage](./images/Screenshot_2026-03-17_184553.png)
+![Overall Coverage](./images/image1.png)
 
 **Description:**  
 This is the **top-level coverage report** showing overall verification quality.
@@ -24,9 +24,9 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ## 📊 2. Coverage Hierarchy View
 
-![Hierarchy](./images/Screenshot 2026-03-17_184600.png)
+![Hierarchy](./images/image2.png)
 
-🔗 HTML View: [Verification Metrics Tree](./html/node_1.html) :contentReference[oaicite:0]{index=0}  
+🔗 HTML View: [Verification Metrics Tree](./html/node_.html) :contentReference[oaicite:0]{index=0}  
 
 **Description:**  
 Shows hierarchical breakdown into:
@@ -39,7 +39,7 @@ Shows hierarchical breakdown into:
 
 ## 📊 3. Types-Based Coverage Breakdown
 
-![Types Coverage](./images/Screenshot 2026-03-17 184607.png)
+![Types Coverage](./images/image3.png)
 
 🔗 HTML View: [Types Breakdown](./html/node_2.html) :contentReference[oaicite:1]{index=1}  
 
@@ -57,7 +57,7 @@ Coverage categorized by design components:
 
 ## 📊 4. Instance-Level Coverage
 
-![Instance Coverage](./images/Screenshot 2026-03-17 184612.png)
+![Instance Coverage](./images/image4.png)
 
 🔗 HTML View: [Instances View](./html/node_9.html) :contentReference[oaicite:2]{index=2}  
 
@@ -73,7 +73,7 @@ Breakdown across instances:
 
 ## 📊 5. Testbench Internal Coverage
 
-![TB Coverage](./images/Screenshot 2026-03-17 184626.png)
+![TB Coverage](./images/image5.png)
 
 🔗 HTML View: [TB Internal View](./html/node_12.html) :contentReference[oaicite:3]{index=3}  
 
