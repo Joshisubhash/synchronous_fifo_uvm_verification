@@ -76,7 +76,7 @@ Breakdown across instances:
 
 ![TB Coverage](./images/Screenshot_2026-03-17_184612.png)
 
-🔗 Live View: [TB Internal View](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_12.html)
+🔗 Live View: [TB Internal View](https://joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_12.html)
 
 **Description:**  
 Detailed coverage inside testbench:
