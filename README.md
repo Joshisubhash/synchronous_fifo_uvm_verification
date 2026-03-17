@@ -92,11 +92,8 @@ The following tests were implemented:
 Check RESULTS.md for more 
 ---
 
-# 📸 Coverage Report 
+#  Coverage Report 
 
  Check coverage_reports.md for it
 ---
 
-# 📂 HTML Coverage Report
-
-👉 Open full interactive report locally:  
