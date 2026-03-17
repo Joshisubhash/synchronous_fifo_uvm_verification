@@ -3,13 +3,13 @@
 This section presents the **coverage analysis results** of the Synchronous FIFO verification using **UVM + SystemVerilog Assertions (SVA)** on Cadence Xcelium.
 
 📂 Full Interactive HTML Report:  
-👉 [Open Coverage Report](./html/index.html)
+👉 [Open Coverage Report](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/index.html)
 
 ---
 
 ## 📊 1. Overall Coverage Summary
 
-![Overall Coverage](./images/image1.png)
+![Overall Coverage](./images/Screenshot_2026-03-17_184553.png)
 
 **Description:**  
 This is the **top-level coverage report** showing overall verification quality.
@@ -24,9 +24,9 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ## 📊 2. Coverage Hierarchy View
 
-![Hierarchy](./images/image2.png)
+![Hierarchy](./images/Screenshot_2026-03-17_184626.png)
 
-🔗 HTML View: [Verification Metrics Tree](./html/node_.html) :contentReference[oaicite:0]{index=0}  
+🔗 Live View: [Verification Metrics Tree](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_1.html)
 
 **Description:**  
 Shows hierarchical breakdown into:
@@ -39,17 +39,19 @@ Shows hierarchical breakdown into:
 
 ## 📊 3. Types-Based Coverage Breakdown
 
-![Types Coverage](./images/image3.png)
+![Types Coverage](./images/Screenshot_2026-03-17_184600.png)
 
-🔗 HTML View: [Types Breakdown](./html/node_2.html) :contentReference[oaicite:1]{index=1}  
+🔗 Live View: [Types Breakdown](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_2.html)
 
 **Description:**  
 Coverage categorized by design components:
 
-- Testbench (tb): **100%**
-- FIFO Interface: **88.46%**
-- FIFO DUT: **90.52%**
-- Assertions: **87.5%**
+| Module | Coverage |
+|---|---|
+| Testbench (tb) | **100%** |
+| FIFO DUT (fifo) | **90.52%** |
+| FIFO Interface | **88.46%** |
+| Assertions | **87.5%** |
 
 ✔ Confirms each module is independently verified.
 
@@ -57,49 +59,50 @@ Coverage categorized by design components:
 
 ## 📊 4. Instance-Level Coverage
 
-![Instance Coverage](./images/image4.png)
+![Instance Coverage](./images/Screenshot_2026-03-17_184607.png)
 
-🔗 HTML View: [Instances View](./html/node_9.html) :contentReference[oaicite:2]{index=2}  
+🔗 Live View: [Instances View](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_9.html)
 
 **Description:**  
 Breakdown across instances:
+- `uvm_pkg`, `$unit` → n/a (expected, library components)
+- `tb` → **91.62%** — main contributor
 
-- `uvm_pkg`, `$unit` → n/a (expected)
-- `tb` → main contributor
-
-✔ Shows active verification happens inside testbench.
+✔ Shows active verification happens inside the testbench.
 
 ---
 
 ## 📊 5. Testbench Internal Coverage
 
-![TB Coverage](./images/image5.png)
+![TB Coverage](./images/Screenshot_2026-03-17_184612.png)
 
-🔗 HTML View: [TB Internal View](./html/node_12.html) :contentReference[oaicite:3]{index=3}  
+🔗 Live View: [TB Internal View](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_12.html)
 
 **Description:**  
 Detailed coverage inside testbench:
 
-- Interface (vif): **88.46%**
-- DUT: **90.52%**
-- Assertions: **87.5% (75% graded)**
+| Instance | Coverage | Assertion Grade |
+|---|---|---|
+| vif (Interface) | **88.46%** | n/a |
+| dut | **90.52%** | n/a |
+| assert_inst | **87.5%** | **75%** |
 
 ✔ Confirms correctness of DUT behavior using assertions.
 
 ---
 
-# ✅ Final Coverage Summary
+## ✅ Final Coverage Summary
 
-| Metric                | Value        |
-|----------------------|-------------|
-| Overall Coverage     | **91.62%**  |
-| Code Coverage        | **~90%**    |
-| Assertion Coverage   | **~87.5%**  |
-| Testbench Coverage   | **100%**    |
+| Metric | Value |
+|---|---|
+| Overall Coverage | **91.62%** |
+| Code Coverage | **~90%** |
+| Assertion Coverage | **~87.5%** |
+| Testbench Coverage | **100%** |
 
 ---
 
-# 🚀 Key Highlights
+## 🚀 Key Highlights
 
 - Built complete **UVM Verification Environment**
 - Implemented **Constrained-Random Testing**
@@ -112,19 +115,7 @@ Detailed coverage inside testbench:
 
 ---
 
-# ⚠️ Note
-
-GitHub does not render Cadence IMC HTML reports properly due to:
-- External CSS (`resources/`)
-- JavaScript dependencies
-
-👉 Use the provided **HTML links locally** for full interactive analysis.
-
----
-
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Subhash Joshi**  
 Digital Design & Verification Engineer (Aspiring)
-
----
