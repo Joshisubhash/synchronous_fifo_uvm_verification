@@ -9,7 +9,7 @@ This section presents the **coverage analysis results** of the Synchronous FIFO 
 
 ##  1. Overall Coverage Summary
 
-![Overall Coverage](./images/image1.png)
+![Overall Coverage](./images/normal_test_report.png)
 
 **Description:**  
 This is the **top-level coverage report** showing overall verification quality.
