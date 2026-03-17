@@ -9,7 +9,7 @@ This section presents the **coverage analysis results** of the Synchronous FIFO 
 
 ## 📊 1. Overall Coverage Summary
 
-![Overall Coverage](./images/Screenshot 2026-03-17_184553.png)
+![Overall Coverage](./images/Screenshot_2026-03-17_184553.png)
 
 **Description:**  
 This is the **top-level coverage report** showing overall verification quality.
