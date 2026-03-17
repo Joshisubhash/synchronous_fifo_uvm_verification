@@ -24,7 +24,7 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ##  2. Coverage Hierarchy View
 
-![Hierarchy](./images/Screenshot_2026-03-17_184626.png)
+![Hierarchy](./images/image2.png)
 
 🔗 Live View: [Verification Metrics Tree](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_1.html)
 
