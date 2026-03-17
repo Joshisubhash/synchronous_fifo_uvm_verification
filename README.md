@@ -88,12 +88,12 @@ The following tests were implemented:
 | Assertion Coverage | **~87.5%**  |
 | Testbench Coverage | **100%**    |
 
- Achieved high coverage through constrained-random testing and assertions.
+- Achieved high coverage through constrained-random testing and assertions.
 Check RESULTS.md for more 
 ---
 
 #  Coverage Report 
 
- Check coverage_reports.md for it
+ - Check coverage_reports.md for it
 ---
 
