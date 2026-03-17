@@ -218,7 +218,7 @@ Coverage results show **~90% overall verification coverage**, indicating strong 
 
 **Subhash Joshi**
 
-Digital Design & Verification Enthusiast
+Digital Design and Verification
 
 GitHub  
 https://github.com/Joshisubhash
