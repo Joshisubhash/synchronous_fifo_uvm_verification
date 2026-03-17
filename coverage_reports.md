@@ -1,15 +1,15 @@
-# 📘 Coverage Report – Cadence IMC (FIFO UVM Verification)
+#  Coverage Report – Cadence IMC (FIFO UVM Verification)
 
 This section presents the **coverage analysis results** of the Synchronous FIFO verification using **UVM + SystemVerilog Assertions (SVA)** on Cadence Xcelium.
 
  Full Interactive HTML Report:  
-👉 [Open Coverage Report](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/index.html)
+👉 [Open Coverage Report](./html/index.html)
 
 ---
 
 ##  1. Overall Coverage Summary
 
-![Overall Coverage](./images/normal_test_report.png)
+![Overall Coverage](./images/image1.png)
 
 **Description:**  
 This is the **top-level coverage report** showing overall verification quality.
@@ -26,32 +26,30 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ![Hierarchy](./images/image2.png)
 
-🔗 Live View: [Verification Metrics Tree](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_1.html)
+🔗 HTML View: [Verification Metrics Tree](./html/node_1.html) :contentReference[oaicite:0]{index=0}  
 
 **Description:**  
 Shows hierarchical breakdown into:
 - **Types**
 - **Instances**
 
-✔ Helps understand how coverage is distributed structurally.
+ Helps understand how coverage is distributed structurally.
 
 ---
 
-##  3. Types-Based Coverage Breakdown
+## 📊 3. Types-Based Coverage Breakdown
 
-![Types Coverage](./images/Screenshot_2026-03-17_184600.png)
+![Types Coverage](./images/image3.png)
 
-🔗 Live View: [Types Breakdown](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_2.html)
+🔗 HTML View: [Types Breakdown](./html/node_2.html) :contentReference[oaicite:1]{index=1}  
 
 **Description:**  
 Coverage categorized by design components:
 
-| Module | Coverage |
-|---|---|
-| Testbench (tb) | **100%** |
-| FIFO DUT (fifo) | **90.52%** |
-| FIFO Interface | **88.46%** |
-| Assertions | **87.5%** |
+- Testbench (tb): **100%**
+- FIFO Interface: **88.46%**
+- FIFO DUT: **90.52%**
+- Assertions: **87.5%**
 
 ✔ Confirms each module is independently verified.
 
@@ -59,50 +57,49 @@ Coverage categorized by design components:
 
 ##  4. Instance-Level Coverage
 
-![Instance Coverage](./images/Screenshot_2026-03-17_184607.png)
+![Instance Coverage](./images/image4.png)
 
-🔗 Live View: [Instances View](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_9.html)
+🔗 HTML View: [Instances View](./html/node_9.html) :contentReference[oaicite:2]{index=2}  
 
 **Description:**  
 Breakdown across instances:
-- `uvm_pkg`, `$unit` → n/a (expected, library components)
-- `tb` → **91.62%** — main contributor
 
-✔ Shows active verification happens inside the testbench.
+- `uvm_pkg`, `$unit` → n/a (expected)
+- `tb` → main contributor
+
+✔ Shows active verification happens inside testbench.
 
 ---
 
 ##  5. Testbench Internal Coverage
 
-![TB Coverage](./images/Screenshot_2026-03-17_184612.png)
+![TB Coverage](./images/image5.png)
 
-🔗 Live View: [TB Internal View](https://joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_12.html)
+🔗 HTML View: [TB Internal View](./html/node_12.html) :contentReference[oaicite:3]{index=3}  
 
 **Description:**  
 Detailed coverage inside testbench:
 
-| Instance | Coverage | Assertion Grade |
-|---|---|---|
-| vif (Interface) | **88.46%** | n/a |
-| dut | **90.52%** | n/a |
-| assert_inst | **87.5%** | **75%** |
+- Interface (vif): **88.46%**
+- DUT: **90.52%**
+- Assertions: **87.5% (75% graded)**
 
-✔ Confirms correctness of DUT behavior using assertions.
+ Confirms correctness of DUT behavior using assertions.
 
 ---
 
-## ✅ Final Coverage Summary
+#  Final Coverage Summary
 
-| Metric | Value |
-|---|---|
-| Overall Coverage | **91.62%** |
-| Code Coverage | **~90%** |
-| Assertion Coverage | **~87.5%** |
-| Testbench Coverage | **100%** |
+| Metric                | Value        |
+|----------------------|-------------|
+| Overall Coverage     | **91.62%**  |
+| Code Coverage        | **~90%**    |
+| Assertion Coverage   | **~87.5%**  |
+| Testbench Coverage   | **100%**    |
 
 ---
 
-## 🚀 Key Highlights
+#  Key Highlights
 
 - Built complete **UVM Verification Environment**
 - Implemented **Constrained-Random Testing**
@@ -113,9 +110,25 @@ Detailed coverage inside testbench:
   - Random stress testing
   - Corner cases (full/empty conditions)
 
----
 
-## 👨‍💻 Author
+
+# Author
 
 **Subhash Joshi**  
-Digital Design & Verification Engineer (Aspiring)
+Digital Design and Verification Engineer  
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
