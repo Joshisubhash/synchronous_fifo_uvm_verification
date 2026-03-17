@@ -2,12 +2,12 @@
 
 This section presents the **coverage analysis results** of the Synchronous FIFO verification using **UVM + SystemVerilog Assertions (SVA)** on Cadence Xcelium.
 
-📂 Full Interactive HTML Report:  
+ Full Interactive HTML Report:  
 👉 [Open Coverage Report](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/index.html)
 
 ---
 
-## 📊 1. Overall Coverage Summary
+##  1. Overall Coverage Summary
 
 ![Overall Coverage](./images/image1.png)
 
@@ -22,7 +22,7 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ---
 
-## 📊 2. Coverage Hierarchy View
+##  2. Coverage Hierarchy View
 
 ![Hierarchy](./images/Screenshot_2026-03-17_184626.png)
 
@@ -37,7 +37,7 @@ Shows hierarchical breakdown into:
 
 ---
 
-## 📊 3. Types-Based Coverage Breakdown
+##  3. Types-Based Coverage Breakdown
 
 ![Types Coverage](./images/Screenshot_2026-03-17_184600.png)
 
@@ -57,7 +57,7 @@ Coverage categorized by design components:
 
 ---
 
-## 📊 4. Instance-Level Coverage
+##  4. Instance-Level Coverage
 
 ![Instance Coverage](./images/Screenshot_2026-03-17_184607.png)
 
@@ -72,7 +72,7 @@ Breakdown across instances:
 
 ---
 
-## 📊 5. Testbench Internal Coverage
+##  5. Testbench Internal Coverage
 
 ![TB Coverage](./images/Screenshot_2026-03-17_184612.png)
 
