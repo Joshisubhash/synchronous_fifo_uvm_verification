@@ -1,111 +1,130 @@
-# 📘 Coverage Report – Cadence IMC
+# 📘 Coverage Report – Cadence IMC (FIFO UVM Verification)
 
-This section presents the **coverage analysis results** of the Synchronous FIFO UVM verification using **Cadence IMC (Integrated Metrics Center)**.
+This section presents the **coverage analysis results** of the Synchronous FIFO verification using **UVM + SystemVerilog Assertions (SVA)** on Cadence Xcelium.
 
-The results demonstrate **code coverage, assertion coverage, and hierarchical coverage distribution** across the verification environment.
+📂 Full Interactive HTML Report:  
+👉 [Open Coverage Report](./html/index.html)
 
 ---
 
-## 📊 Overall Coverage Summary
+## 📊 1. Overall Coverage Summary
 
-![Overall Coverage](./images/image1.png)
+![Overall Coverage](./images/Screenshot 2026-03-17 184553.png)
 
 **Description:**  
-This screenshot shows the **top-level coverage summary**.
+This is the **top-level coverage report** showing overall verification quality.
 
-Key observations:
-- **Overall Coverage:** 91.62%
-- **Covered Points:** 184 / 204 (90.2%)
-- **Assertion Coverage:** 75%
+- Overall Coverage: **91.62%**
+- Covered Points: **184 / 204 (90.2%)**
+- Assertion Coverage: **75%**
 
-This indicates that most of the RTL logic and verification scenarios are covered.
+✔ Indicates strong functional and code coverage across the design.
 
 ---
 
-## 📊 Coverage Context & Environment
+## 📊 2. Coverage Hierarchy View
 
-![Coverage Context](./images/image2.png)
+![Hierarchy](./images/Screenshot 2026-03-17 184600.png)
+
+🔗 HTML View: [Verification Metrics Tree](./html/node_1.html) :contentReference[oaicite:0]{index=0}  
 
 **Description:**  
-This view shows the **coverage environment details**.
+Shows hierarchical breakdown into:
+- **Types**
+- **Instances**
 
-Highlights:
-- Coverage collected from UVM simulation run
-- Includes model files and UCD database
-- No refinement or exclusion rules applied
-
-This ensures that the coverage results are **unfiltered and accurate**.
+✔ Helps understand how coverage is distributed structurally.
 
 ---
 
-## 📊 Instance-Level Coverage (tb Breakdown)
+## 📊 3. Types-Based Coverage Breakdown
 
-![Instance Coverage](./images/image3.png)
+![Types Coverage](./images/Screenshot 2026-03-17 184607.png)
+
+🔗 HTML View: [Types Breakdown](./html/node_2.html) :contentReference[oaicite:1]{index=1}  
 
 **Description:**  
-This screenshot shows coverage inside the **testbench hierarchy (`tb`)**.
+Coverage categorized by design components:
 
-Coverage details:
-- **Interface (vif):** 88.46%
-- **DUT:** 90.52%
-- **Assertions:** 87.5%
+- Testbench (tb): **100%**
+- FIFO Interface: **88.46%**
+- FIFO DUT: **90.52%**
+- Assertions: **87.5%**
 
-This confirms that both DUT behavior and assertions are well verified.
+✔ Confirms each module is independently verified.
 
 ---
 
-## 📊 Instance Hierarchy View
+## 📊 4. Instance-Level Coverage
 
-![Instance Hierarchy](./images/image4.png)
+![Instance Coverage](./images/Screenshot 2026-03-17 184612.png)
+
+🔗 HTML View: [Instances View](./html/node_9.html) :contentReference[oaicite:2]{index=2}  
 
 **Description:**  
-This view shows coverage across different instances.
+Breakdown across instances:
 
-Observations:
-- `uvm_pkg` and `$unit` have no coverage (expected)
-- `tb` contributes majority of coverage
-- Active components are fully exercised
+- `uvm_pkg`, `$unit` → n/a (expected)
+- `tb` → main contributor
+
+✔ Shows active verification happens inside testbench.
 
 ---
 
-## 📊 Type-Level Coverage Breakdown
+## 📊 5. Testbench Internal Coverage
 
-![Type Coverage](./images/image5.png)
+![TB Coverage](./images/Screenshot 2026-03-17 184626.png)
+
+🔗 HTML View: [TB Internal View](./html/node_12.html) :contentReference[oaicite:3]{index=3}  
 
 **Description:**  
-This screenshot shows coverage categorized by design blocks.
+Detailed coverage inside testbench:
 
-Breakdown:
-- **Testbench:** 100%
-- **FIFO Interface:** 88.46%
-- **FIFO DUT:** 90.52%
-- **Assertions:** 87.5%
+- Interface (vif): **88.46%**
+- DUT: **90.52%**
+- Assertions: **87.5% (75% graded)**
 
-This demonstrates strong verification across all major components.
+✔ Confirms correctness of DUT behavior using assertions.
 
 ---
 
-# ✅ Coverage Summary
+# ✅ Final Coverage Summary
 
-✔ Overall Coverage: **91.62%**  
-✔ Code Coverage: **~90%**  
-✔ Assertion Coverage: **~87.5% (internal), 75% graded**  
-✔ Testbench Coverage: **100%**
+| Metric                | Value        |
+|----------------------|-------------|
+| Overall Coverage     | **91.62%**  |
+| Code Coverage        | **~90%**    |
+| Assertion Coverage   | **~87.5%**  |
+| Testbench Coverage   | **100%**    |
 
 ---
 
-# 🚀 Key Takeaways
+# 🚀 Key Highlights
 
-- Comprehensive verification using **UVM methodology**
-- Effective use of **SystemVerilog Assertions (SVA)**
-- Strong coverage across DUT, interface, and testbench
-- Verification environment successfully validates multiple scenarios
+- Built complete **UVM Verification Environment**
+- Implemented **Constrained-Random Testing**
+- Integrated **SystemVerilog Assertions (SVA)**
+- Achieved **90%+ functional and code coverage**
+- Verified FIFO across multiple scenarios:
+  - Normal operation
+  - Random stress testing
+  - Corner cases (full/empty conditions)
+
+---
+
+# ⚠️ Note
+
+GitHub does not render Cadence IMC HTML reports properly due to:
+- External CSS (`resources/`)
+- JavaScript dependencies
+
+👉 Use the provided **HTML links locally** for full interactive analysis.
 
 ---
 
 # 👨‍💻 Author
 
 **Subhash Joshi**  
-Digital Design & Verification Enthusiast  
+Digital Design & Verification Engineer (Aspiring)
 
 ---
