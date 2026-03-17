@@ -3,7 +3,7 @@
 This section presents the **coverage analysis results** of the Synchronous FIFO verification using **UVM + SystemVerilog Assertions (SVA)** on Cadence Xcelium.
 
  Full Interactive HTML Report:  
-👉 [Open Coverage Report](./html/index.html)
+👉 [Open Coverage Report](./reports/index.html)
 
 ---
 
@@ -26,7 +26,7 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ![Hierarchy](./images/image2.png)
 
-🔗 HTML View: [Verification Metrics Tree](./html/node_1.html) :contentReference[oaicite:0]{index=0}  
+🔗 HTML View: [Verification Metrics Tree](./reports/node_1.html) :contentReference[oaicite:0]{index=0}  
 
 **Description:**  
 Shows hierarchical breakdown into:
@@ -41,7 +41,7 @@ Shows hierarchical breakdown into:
 
 ![Types Coverage](./images/image3.png)
 
-🔗 HTML View: [Types Breakdown](./html/node_2.html) :contentReference[oaicite:1]{index=1}  
+🔗 HTML View: [Types Breakdown](./reports/node_2.html) :contentReference[oaicite:1]{index=1}  
 
 **Description:**  
 Coverage categorized by design components:
@@ -59,7 +59,7 @@ Coverage categorized by design components:
 
 ![Instance Coverage](./images/image4.png)
 
-🔗 HTML View: [Instances View](./html/node_9.html) :contentReference[oaicite:2]{index=2}  
+🔗 HTML View: [Instances View](./reports/node_9.html) :contentReference[oaicite:2]{index=2}  
 
 **Description:**  
 Breakdown across instances:
@@ -75,7 +75,7 @@ Breakdown across instances:
 
 ![TB Coverage](./images/image5.png)
 
-🔗 HTML View: [TB Internal View](./html/node_12.html) :contentReference[oaicite:3]{index=3}  
+🔗 HTML View: [TB Internal View](./reports/node_12.html) :contentReference[oaicite:3]{index=3}  
 
 **Description:**  
 Detailed coverage inside testbench:
