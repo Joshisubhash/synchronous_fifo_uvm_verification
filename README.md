@@ -19,12 +19,12 @@ The goal of this project is to verify a synchronous FIFO design using industry-s
 #  Features
 
  1. Complete UVM Testbench Architecture  
- 2.Driver, Monitor, Scoreboard Implementation  
+ 2. Driver, Monitor, Scoreboard Implementation  
  3. Constrained-Random Stimulus Generation  
  4. Assertion-Based Verification (SVA)  
  5. Functional Coverage Collection  
- 6.Multiple Test Scenarios (normal, random, stress)  
- 7.Coverage Analysis using Cadence IMC  
+ 6. Multiple Test Scenarios (normal, random, stress)  
+ 7. Coverage Analysis using Cadence IMC  
 
 ---
 
