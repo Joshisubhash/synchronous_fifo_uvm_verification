@@ -9,7 +9,10 @@ This section presents the **coverage analysis results** of the Synchronous FIFO 
 
 ##  1. Overall Coverage Summary
 
+<!--
 ![Overall Coverage](./images/image1.png)
+-->
+
 
 **Description:**  
 This is the **top-level coverage report** showing overall verification quality.
@@ -24,8 +27,9 @@ This is the **top-level coverage report** showing overall verification quality.
 
 ##  2. Coverage Hierarchy View
 
+<!--
 ![Hierarchy](./images/image2.png)
-
+-->
 🔗 HTML View: Live View: [Verification Metrics Tree](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_1.html)
 
 **Description:**  
@@ -38,9 +42,9 @@ Shows hierarchical breakdown into:
 ---
 
 ## 📊 3. Types-Based Coverage Breakdown
-
+<!--
 ![Types Coverage](./images/image3.png)
-
+-->
 🔗 HTML View: Live View: [Types Breakdown](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_2.html)
 
 **Description:**  
@@ -56,9 +60,9 @@ Coverage categorized by design components:
 ---
 
 ##  4. Instance-Level Coverage
-
+<!--
 ![Instance Coverage](./images/image4.png)
-
+-->
 🔗 HTML View: Live View: [Instances View](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_9.html)
 
 **Description:**  
@@ -72,9 +76,9 @@ Breakdown across instances:
 ---
 
 ##  5. Testbench Internal Coverage
-
+<!--
 ![TB Coverage](./images/image5.png)
-
+-->
 🔗 HTML View: [TB Internal View](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_12.html)
 
 **Description:**  
