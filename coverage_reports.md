@@ -45,7 +45,7 @@ Shows hierarchical breakdown into:
 <!--
 ![Types Coverage](./images/image3.png)
 -->
-🔗 HTML View: Live View: [Types Breakdown](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_2.html)
+🔗 HTML View: Live View: [Types Breakdown](https://Joshisubhash.github.io/synchronous_fifo_uvm_verification/reports/node_.html)
 
 **Description:**  
 Coverage categorized by design components:
